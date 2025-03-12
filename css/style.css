@@ -1,0 +1,258 @@
+/* Google Font applied */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Navbar menu icon */
+  .nav-menu {
+    border: none;
+    background-color: #fff;
+    font-size: 1.5rem;
+    color: #fca61f;
+  }
+  
+  /* Navbar links */
+  .navbar-nav a {
+    color: black;
+    position: relative;
+  }
+  .navbar-nav a:hover {
+    color: #fca61f;
+  }
+  .navbar-nav a:after {
+    background: transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    top: 35px;
+    position: absolute;
+    background: #fca61f;
+    transition: width 0.3s ease, left 0.3s ease;
+    width: 0;
+  }
+  .navbar-nav a:hover:after {
+    width: 100%;
+    left: 0;
+  }
+  
+  /* Contact button in navbar */
+  .c-btn {
+    border: none;
+    background: #fca61f;
+    color: #fff;
+    font-size: 1.2rem;
+  }
+  
+  /* Home section */
+  .home {
+    background: linear-gradient(33deg, rgba(242,242,255,1) 0%, rgba(235,249,255,1) 100%);
+    padding: 30px 0 10px 0;
+  }
+  .home h2 {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+  .c-orange {
+    color: #6f34fe;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+  .home p {
+    width: fit-content;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+  }
+  .h-btn:hover {
+    background: #6f34fe;
+    color: #fff;
+    transform: translateY(-20px);
+    transition-duration: 1s;
+  }
+  .link {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #fca61f;
+    position: relative;
+  }
+  .link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    top: 20px;
+    background-color: #6f34fe;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  .link:hover {
+    color: #6f34fe;
+  }
+  .link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  /* Expertise / Service section */
+  .heading small {
+    color: #6f34fe;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  .heading h3 {
+    margin-top: 0.5rem;
+    color: #3f396d;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  .expertise h4 {
+    color: #3f396d;
+    font-weight: 700;
+  }
+  .expertise a {
+    text-decoration: none;
+    color: #fca61f;
+  }
+  .expertise a:hover {
+    color: #6f34fe;
+  }
+  .service-card {
+    border-radius: 0.7rem;
+  }
+  
+  /* Skill section */
+  .skill {
+    background-color: rgb(234, 234, 249);
+  }
+  .skill-box {
+    background-color: #fff;
+    cursor: default;
+  }
+  .skill-box:hover {
+    transform: scale(1.05);
+    transition-duration: 0.4s;
+  }
+  
+  /* Portfolio filtering buttons */
+  #myBtnContainer {
+    margin-bottom: 45px;
+  }
+  #myBtnContainer button {
+    border: none;
+    color: black;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 25px;
+  }
+  #myBtnContainer button:hover {
+    color: #fca61f;
+  }
+  #myBtnContainer button:focus {
+    outline: none;
+  }
+  
+  /* Portfolio cards */
+  .post .card {
+    border: none;
+  }
+  
+  /* Contact section */
+  .contact {
+    background-color: #f3f3f3;
+  }
+  .contact-details i {
+    font-size: 1.5rem;
+    color: #fca61f;
+  }
+  .contact-details p {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+  }
+  .contact-form .form-control:focus {
+    box-shadow: none;
+    border: 1px solid #fca61f;
+  }
+  .contact-form .form-control {
+    padding: 10px 10px;
+    width: 80%;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #211e39;
+  }
+  footer .link-group a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #6c757d;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+  }
+  footer .link-group a:hover {
+    color: #fca61f;
+  }
+  .social-links button {
+    border: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+    background-color: #fff;
+    padding: 14px 15px 10px 15px;
+  }
+  .social-links .dribble {
+    color: #f33a7e;
+  }
+  .social-links button:hover {
+    color: #fff;
+    transform: translateY(-20px);
+    transition-duration: 1s;
+  }
+  .social-links .dribble:hover {
+    background-color: #f33a7e;
+  }
+  .social-links .whatsapp {
+    color: #25d366;
+  }
+  .social-links .whatsapp:hover {
+    background-color: #25d366;
+  }
+  .social-links .behance {
+    color: #255afc;
+  }
+  .social-links .behance:hover {
+    background-color: #255afc;
+  }
+  
+  /* Back to top button */
+  #btn-back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: none;
+    font-size: 1.4rem;
+    background-color: #fca61f;
+    color: #fff;
+    animation: pulse 3s infinite;
+  }
+  
+  /* Optional animation for the back-to-top button */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.08);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  

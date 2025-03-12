@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Kshitij Gomber</title>
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- AOS Library CSS for animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jQuery CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- ========== NAVBAR START ========== -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <!-- Navbar Brand -->
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d">
+          Kshitij Gomber
+        </a>
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resume">Resume</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Turn the "Contact" button into an anchor linking to #contact -->
+        <a
+          href="#contact"
+          class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block"
+          style="text-decoration: none;"
+        >
+          Contact
+        </a>
+      </div>
+    </nav>
+    <!-- ========== NAVBAR END ========== -->
+
+    <!-- ========== HOME SECTION START ========== -->
+    <section class="home pt-5 pb-5" id="home">
+      <div class="row justify-content-evenly align-middle">
+        <div
+          class="col-10 col-md-6 text-center text-md-start"
+          data-aos="slide-right"
+        >
+          <h2 style="color: #3f396d">
+            Hello! I Am <br />
+            <span class="c-orange">Kshitij Gomber</span>
+          </h2>
+          <p class="text-muted">
+            I am a responsible and ambitious student at the University of British
+            Columbia, with a strong aptitude in Computer Science and Mathematics.
+            Always keen to learn new things and contribute to impactful projects.
+          </p>
+          <!-- 'Hire Me' button scrolls to contact form -->
+          <a href="#contact" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill" style="text-decoration: none;">
+            Hire Me
+          </a>
+          <a href="#" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <!-- Optionally place an image here -->
+          <!-- <img src="images/banner-01.webp" class="img-fluid" alt="Banner Image" /> -->
+        </div>
+      </div>
+    </section>
+    <!-- ========== HOME SECTION END ========== -->
+
+    <!-- ========== EXPERTISE SECTION (SERVICE) START ========== -->
+    <section class="expertise mt-5" id="service">
+      <div class="heading text-center">
+        <small>My Expertise</small>
+        <h3>Projects & Areas of Interest</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card text-center p-3">
+            <h4>Database Management</h4>
+            <p class="text-muted">
+              Experienced in designing and implementing efficient relational
+              databases (SQL) for robust data storage and retrieval.
+            </p>
+            <a href="#portfolio" class="link">Read More</a>
+          </div>
+        </div>
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card text-center p-3">
+            <h4>Web Development</h4>
+            <p class="text-muted">
+              Proficient in HTML, CSS, JavaScript, and backend integration for
+              creating responsive and dynamic web applications.
+            </p>
+            <a href="#portfolio" class="link">Read More</a>
+          </div>
+        </div>
+        <div class="col-10 col-md-4" data-aos="fade-up">
+          <div class="service-card text-center p-3">
+            <h4>Programming & Debugging</h4>
+            <p class="text-muted">
+              Skilled in C++, Java, and Python for efficient problem-solving
+              and debugging across various codebases.
+            </p>
+            <a href="#portfolio" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== EXPERTISE SECTION (SERVICE) END ========== -->
+
+    <!-- ========== RESUME SECTION START ========== -->
+    <section class="mt-5 pt-5 container" id="resume" data-aos="fade-up">
+      <!-- Row 1: Education & Experience -->
+      <div class="row">
+        <!-- Education Column -->
+        <div class="col-md-6 mb-4">
+          <h2>Education</h2>
+          <hr />
+          <h5>
+            University of British Columbia
+            <small class="text-muted">(Sept 2022 – PRESENT)</small>
+          </h5>
+          <p>
+            <strong>Bachelor of Science – Computer Science Major (Year 3)</strong><br />
+            • Dean’s List for Outstanding Academic Achievement
+          </p>
+
+          <h5>
+            The Millennium School HMEL
+            <small class="text-muted">(Nov 2011 – May 2022)</small>
+          </h5>
+          <p>
+            <strong>High School Diploma (CBSE)</strong> – Physics, Chemistry,
+            Mathematics, Information Technology, English<br />
+            • Fully funded scholarship in Grade 11 and 12
+          </p>
+        </div>
+        <!-- Experience Column -->
+        <div class="col-md-6 mb-4">
+          <h2>Experience</h2>
+          <hr />
+          <h5>
+            UBC | Undergraduate Teaching Assistant
+            <small class="text-muted">(Sep 2023 – PRESENT)</small>
+          </h5>
+          <p>
+            • Assisted students in understanding differential and integral calculus
+              (MATH 100, MATH 180, MATH 101).<br />
+            • Collaborated with the instructor to manage discussions & grading.
+          </p>
+
+          <h5>
+            iEdufy Tutoring | Online Mentor
+            <small class="text-muted">(Jan 2023 – Dec 2023)</small>
+          </h5>
+          <p>
+            • Provided online mentorship & personalized instruction in Physics & Mathematics
+              for Grades 11 and 12.
+          </p>
+
+          <h5>
+            HPCL-Mittal Energy Limited | Vocational Intern
+            <small class="text-muted">(July 2023 – August 2023)</small>
+          </h5>
+          <p>
+            • Provided technical support in the IT department, resolving employee queries.<br />
+            • Gained knowledge of the refinery's online portal and technology.
+          </p>
+
+          <h5>
+            Paul Merchants Finance | Summer Intern
+            <small class="text-muted">(May 2023 – July 2023)</small>
+          </h5>
+          <p>
+            • Resolved technical issues in the IT division.<br />
+            • Deepened knowledge of Maya Money and Paul Pay mobile apps.
+          </p>
+        </div>
+      </div>
+
+      <hr class="my-4" />
+
+      <!-- Row 2: Professional Development & Achievements + Extra Skills -->
+      <div class="row">
+        <!-- Professional Development & Achievements -->
+        <div class="col-md-6 mb-4">
+          <h2>Professional Development & Achievements</h2>
+          <hr />
+          <h5>
+            Engineering Virtual Program at Goldman Sachs (Cyber Security)
+            <small class="text-muted">(April 2021)</small>
+          </h5>
+          <p>
+            • Analyzed a leaked password database and recommended improvements
+              to controls and policies.
+          </p>
+
+          <h5>Indian Olympiad Qualifier in Mathematics 2020 <small>(Jan 2021)</small></h5>
+          <p>
+            • Earned a Certificate of Merit for ranking in the top 300 nationwide.
+          </p>
+
+          <h5>Snapchat <small>(Nov 2021)</small></h5>
+          <p>
+            • Designed multiple filters, showcasing creativity and technical skills.<br />
+            • Achieved over 4.2 million views and 95,669 shares for one filter.
+          </p>
+        </div>
+        <!-- Big Skills List -->
+        <div class="col-md-6 mb-4">
+          <h2>Additional Skills</h2>
+          <hr />
+          <p>
+            C++ | Java | GitHub | JavaScript | MySQL | HTML | Python | Machine Learning |
+            Mathematical Reasoning | Video Editing | Snapchat Lens Studio |
+            Digital Marketing | Data Analysis | Database Management |
+            Project Management | Jupyter Notebook
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ========== RESUME SECTION END ========== -->
+
+    <!-- ========== SKILL SECTION START ========== -->
+    <section class="skill mt-5 py-5" id="about">
+      <div class="heading text-center" data-aos="fade-up">
+        <small>My Skills</small>
+        <h3>Continuous Learning & Development</h3>
+        <p class="text-muted">
+          I consistently work on improving my programming and analytical skills.
+          I've built various personal projects involving both front-end and
+          back-end technologies. I'm always open to exploring new languages,
+          frameworks, and real-world projects to expand my expertise.
+        </p>
+        <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+          <!-- Make sure "Resume.pdf" is in the same folder -->
+          <a
+            href="Resume.pdf"
+            download="Kshitij_Gomber_Resume"
+            style="text-decoration: none; color: #fff;"
+          >
+            Download CV
+          </a>
+        </button>
+      </div>
+
+      <!-- Skill Boxes -->
+      <div class="row justify-content-center mt-5">
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>HTML & CSS</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>JavaScript</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>Node.js</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>UI/UX</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>React</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>MySQL</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>Java</h5>
+          </div>
+        </div>
+        <div class="col-6 col-md-3 mb-3" data-aos="zoom-in">
+          <div class="skill-box p-3 text-center rounded shadow">
+            <h5>C++</h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ========== SKILL SECTION END ========== -->
+
+    <!-- ========== PORTFOLIO SECTION START ========== -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading text-center pt-5">
+        <small>Highlighted Projects</small>
+        <h3>Check My Portfolio</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="java">Java</button>
+        <button class="filter-item" data-filter="webapp">Web App</button>
+        <button class="filter-item" data-filter="python">Python</button>
+        <button class="filter-item" data-filter="database">Database</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <!-- Example Project 1 -->
+          <div
+            class="post col-md-4 java all col-10 mt-3 mt-md-0"
+            data-aos="fade-up"
+          >
+            <div class="card">
+              <div class="card-body text-center">
+                <h4 class="card-title">Fitness Tracker</h4>
+                <span class="badge bg-secondary badge-pill">Java</span>
+                <span class="badge bg-secondary badge-pill mb-2">Swing</span><br />
+                <p class="mt-3 text-muted">
+                  A desktop application for logging workouts, setting fitness goals,
+                  and tracking progress.
+                </p>
+                <a
+                  href="https://github.com/KshitijGomber/FitnessTracker"
+                  class="read-more-btn link"
+                  target="_blank"
+                >View Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- Example Project 2 -->
+          <div
+            class="post col-md-4 database all col-10 mt-3 mt-md-0"
+            data-aos="fade-up"
+          >
+            <div class="card">
+              <div class="card-body text-center">
+                <h4 class="card-title">GameLog Database</h4>
+                <span class="badge bg-secondary badge-pill">SQL</span>
+                <span class="badge bg-secondary badge-pill">Node.js</span>
+                <span class="badge bg-secondary badge-pill mb-2">Database</span><br />
+                <p class="mt-3 text-muted">
+                  A system enabling users to log and review games, track game
+                  development, and manage in-game items.
+                </p>
+                <a
+                  href="https://github.com/KshitijGomber/DatabaseProject"
+                  class="read-more-btn link"
+                  target="_blank"
+                >View Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- Example Project 3 -->
+          <div
+            class="post col-md-4 webapp all col-10 mt-3 mt-md-0"
+            data-aos="fade-up"
+          >
+            <div class="card">
+              <div class="card-body text-center">
+                <h4 class="card-title">WatchList Manager</h4>
+                <span class="badge bg-secondary badge-pill">Java</span>
+                <span class="badge bg-secondary badge-pill mb-2">Swing</span><br />
+                <p class="mt-3 text-muted">
+                  A Java-based application for managing movies and web series
+                  with an intuitive GUI.
+                </p>
+                <a
+                  href="https://github.com/KshitijGomber/WatchListManager"
+                  class="read-more-btn link"
+                  target="_blank"
+                >View Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <!-- Example Project 4 -->
+          <div
+            class="post col-md-4 python all col-10 mt-3 mt-md-0"
+            data-aos="fade-up"
+          >
+            <div class="card">
+              <div class="card-body text-center">
+                <h4 class="card-title">StudyTracker</h4>
+                <span class="badge bg-secondary badge-pill">Python</span>
+                <span class="badge bg-secondary badge-pill mb-2">CLI</span><br />
+                <p class="mt-3 text-muted">
+                  A Python application to help balance study and break times,
+                  tracking break debt and playing alarms.
+                </p>
+                <a
+                  href="https://github.com/KshitijGomber/StudyTracker"
+                  class="read-more-btn link"
+                  target="_blank"
+                >View Code</a>
+              </div>
+            </div>
+          </div>
+          <!-- Add more if needed -->
+        </div>
+      </div>
+    </section>
+    <!-- ========== PORTFOLIO SECTION END ========== -->
+
+    <!-- ========== CONTACT SECTION START ========== -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <!-- Contact Details -->
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Vancouver, BC, Canada</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+1-250-859-3733</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>kshitijgomber@gmail.com</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1">
+              <i class="bi bi-globe-americas"></i>
+            </div>
+            <div class="col-11">
+              <p>github.com/KshitijGomber</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form with mailto -->
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <form
+            action="mailto:kshitijgomber@gmail.com"
+            method="POST"
+            enctype="text/plain"
+            class="contact-form"
+          >
+            <div class="mb-3">
+              <input
+                type="text"
+                name="Name"
+                class="form-control"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                name="Email"
+                class="form-control"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                name="Subject"
+                class="form-control"
+                placeholder="Subject"
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                name="Message"
+                rows="5"
+                placeholder="Message"
+              ></textarea>
+            </div>
+            <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- ========== CONTACT SECTION END ========== -->
+
+    <!-- ========== BACK TO TOP BUTTON ========== -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- ========== FOOTER START ========== -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="social-links mt-5" data-aos="fade-up">
+        <!-- GITHUB Link -->
+        <a
+          href="https://github.com/KshitijGomber"
+          target="_blank"
+          class="rounded-pill dribble"
+          style="text-decoration:none;"
+        >
+          <i class="bi bi-dribbble"></i>
+        </a>
+
+        <!-- WHATSAPP Link -->
+        <a
+          href="https://wa.me/12508593733"
+          target="_blank"
+          class="rounded-pill whatsapp"
+          style="text-decoration:none;"
+        >
+          <i class="bi bi-whatsapp"></i>
+        </a>
+      </div>
+      <hr class="text-muted my-4" />
+      <p>Copyright 2025 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- ========== FOOTER END ========== -->
+
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS Library JS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // Initialize AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+
+    <!-- Custom JS (script.js) -->
+    <script>
+      // Filter for the portfolio
+      $(document).ready(function () {
+        $(".filter-item").click(function () {
+          const value = $(this).attr("data-filter");
+          if (value === "all") {
+            $(".post").show("1000");
+          } else {
+            $(".post").not("." + value).hide("1000");
+            $(".post").filter("." + value).show("1000");
+          }
+        });
+      });
+
+      // Sticky navbar on scroll
+      document.addEventListener("DOMContentLoaded", function () {
+        window.addEventListener("scroll", function () {
+          if (window.scrollY > 50) {
+            document.getElementById("navbar-top").classList.add("fixed-top");
+            let navbar_height = document.querySelector(".navbar").offsetHeight;
+            document.body.style.paddingTop = navbar_height + "px";
+          } else {
+            document.getElementById("navbar-top").classList.remove("fixed-top");
+            document.body.style.paddingTop = "0";
+          }
+        });
+      });
+
+      // Back to top button
+      let mybutton = document.getElementById("btn-back-to-top");
+      window.onscroll = function () {
+        scrollFunction();
+      };
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+      mybutton.addEventListener("click", function () {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      });
+    </script>
+  </body>
+</html>
