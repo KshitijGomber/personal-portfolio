@@ -16,7 +16,7 @@ This repository contains the source code for **Kshitij Gomber’s** personal por
 
 ---
 
-## Preview
+## [Preview](https://kshitijgomber.github.io/personal-portfolio/)
 
 Take a look at how it all appears by opening **index.html** in your web browser, or visit the deployed link (if available). You will see:
 - A **Home** section introducing Kshitij.
@@ -27,7 +27,6 @@ Take a look at how it all appears by opening **index.html** in your web browser,
 - A **Contact** form that uses `mailto:` to send inquiries directly to Kshitij’s email.
 
 
-[Preview](https://kshitijgomber.github.io/personal-portfolio/)
 ---
 
 ## Features
