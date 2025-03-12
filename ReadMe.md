@@ -25,6 +25,8 @@ Take a look at how it all appears by opening **index.html** in your web browser,
 - A **Skills** section with quick skill badges.
 - A **Portfolio** gallery that’s filterable (all, Java, Python, etc.).
 - A **Contact** form that uses `mailto:` to send inquiries directly to Kshitij’s email.
+
+
 [Preview](https://kshitijgomber.github.io/personal-portfolio/)
 ---
 
