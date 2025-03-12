@@ -1,7 +1,6 @@
 # Kshitij Gomber - Portfolio Website
 
-This repository contains the source code for **Kshitij Gomber’s** personal portfolio website. It showcases his **educational background**, **experiences**, **projects**, and **skills**, with the ability for visitors to get in touch easily.  
-
+This repository contains the source code for my personal portfolio website. 
 ---
 
 ## Table of Contents
@@ -19,7 +18,7 @@ This repository contains the source code for **Kshitij Gomber’s** personal por
 ## [Preview](https://kshitijgomber.github.io/personal-portfolio/)
 
 Take a look at how it all appears by opening **index.html** in your web browser, or visit the deployed link (if available). You will see:
-- A **Home** section introducing Kshitij.
+- A **Home** section introducing myself.
 - **Service** / Expertise blocks.
 - A **Resume** section with Education, Experience, and Achievements.
 - A **Skills** section with quick skill badges.
@@ -59,6 +58,4 @@ Take a look at how it all appears by opening **index.html** in your web browser,
 4. Make edits to HTML, CSS, or JS files as needed.
 
 ---
-
-## Project Structure
 
