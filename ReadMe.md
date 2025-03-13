@@ -16,9 +16,9 @@ This repository contains the source code for my personal portfolio website.
 
 ---
 
-## [Preview](kshitijgomber.vercel.app)
+## [Preview](https://kshitijgomber.vercel.app)
 
-Take a look at how it all appears by opening **index.html** in your web browser, or visit the deployed link (kshitijgomber.vercel.app/). You will see:
+Take a look at how it all appears by opening **index.html** in your web browser, or visit the deployed link [here](https://kshitijgomber.vercel.app/). You will see:
 - A **Home** section introducing myself.
 - **Service** / Expertise blocks.
 - A **Resume** section with Education, Experience, and Achievements.
