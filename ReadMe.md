@@ -1,18 +1,6 @@
 # Kshitij Gomber - Portfolio Website
 
 This repository contains the source code for my personal portfolio website. 
----
-
-## Table of Contents
-
-1. [Preview](#preview)
-2. [Features](#features)
-3. [Usage](#usage)
-4. [Project Structure](#project-structure)
-5. [Deployment](#deployment)
-6. [Contributing](#contributing)
-7. [License](#license)
-
 
 ---
 
