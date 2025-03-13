@@ -13,10 +13,11 @@ This repository contains the source code for my personal portfolio website.
 6. [Contributing](#contributing)
 7. [License](#license)
 
+
 ---
 
-## [Preview](https://kshitijgomber.github.io/personal-portfolio/)
-
+## [Preview](kshitijgomber.vercel.app/]
+kshitijgomber.vercel.app/
 Take a look at how it all appears by opening **index.html** in your web browser, or visit the deployed link (if available). You will see:
 - A **Home** section introducing myself.
 - **Service** / Expertise blocks.
